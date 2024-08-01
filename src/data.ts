@@ -12,7 +12,7 @@ export const descriptionsProjects: DescriptionProjectsProps[] = [
     id: "audiophile",
     title: "Audiophile Ecommerce",
     desc: "Tienda de productos de audio. Reto de Frontend Mentor.",
-    url: "https://audiophile-ecommerce-pi-two.vercel.app/",
+    url: "audiophile-ecommerce-joacoconut.vercel.app",
     tags: ["HTML", "React", "TypeScript"],
   },
  /*  {
@@ -30,7 +30,7 @@ export const descriptionsHome: IDescriptionHome[] = [
     id: "audiophile",
     title: "Audiophile Ecommerce",
     desc: "Tienda de productos de audio. Reto de Frontend Mentor.",
-    url: "https://audiophile-ecommerce-pi-two.vercel.app/",
+    url: "audiophile-ecommerce-joacoconut.vercel.app",
     github: "https://github.com/joacoconut/Audiophile-Ecommerce",
     tags: ["HTML", "React", "TypeScript"],
   },
