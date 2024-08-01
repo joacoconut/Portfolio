@@ -1,0 +1,25 @@
+.hamburguer {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.line {
+    transition: .25s;
+    width: 2.2rem;
+    height: .3rem;
+    background-color: #0f141e;
+}
+
+.animateLine1 {
+    transform: translateY(.7rem) rotate(45deg);
+}
+
+.animateLine2 {
+    opacity: 0;
+}
+
+.animateLine3 {
+    transform: translateY(-.7rem) rotate(-45deg);
+}

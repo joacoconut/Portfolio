@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    justify-content: center;
+    transition: .65s;
+    margin-top: -250px;
+    margin-bottom: 300px;
+    text-align: center;
+    /* background-image: url(../../../img/Me1.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center; */
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin-top: -50px;
+        margin-bottom: 0;
+        background-position: 85% center;
+    }
+}
+
+.infoContainer {
+    min-height: calc(100vh - 7.5rem);
+    padding: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .infoContainer {
+        padding: 0 4rem;
+        width: 55vw;
+        justify-content: center;
+    }
+}
+
+.name,
+.skills,
+.text,
+.spam {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.name {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    color: #4d4d4e;
+}
+
+.skills {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #0f141e;
+}
+
+.text {
+    font-size: 1.75rem;
+    color: #707072;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.spam {
+    font-size: 1.9rem;
+}
+
+.spam a {
+    font-weight: bold;
+    color: #0f141e;
+}
+
+.spam span {
+    color: #4d4d4e;
+}
+
+@media (min-width: 768px) {
+    .skills {
+        font-size: 7rem;
+    }
+
+    .text {
+        color: #878a8f;
+        font-size: 2.2rem;
+        max-width: 800px;
+    }
+}

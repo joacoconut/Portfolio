@@ -1,0 +1,98 @@
+.tags-container {
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.no-margin {
+    margin: 0!important;
+}
+
+.tag {
+    user-select: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border-radius: 5rem;
+    font-weight: bold;
+}
+
+.React {
+    color: white;;
+    background: #61dafb;
+    border: 2.5px solid #34bbe0;
+}
+
+.HTML {
+    color: white;;
+    background: #f06224;
+    border: 2.5px solid #cc4106;
+}
+
+.CSS {
+    color: white;;
+    background: #006bc0;
+    border: 2.5px solid #044b85;
+}
+
+.JavaScript {
+    color: black;
+    background: #f7e018;
+    border: 2.5px solid #d6c317;
+}
+
+.TypeScript {
+    color: white;
+    background: #3178c6;
+    border: 2.5px solid #0f61b8;
+}
+
+.SASS {
+    color: white;
+    background: #d95496;
+    border: 2.5px solid #c92f7c;
+}
+
+.PHP {
+    color: white;
+    background: #787cb5;
+    border: 2.5px solid #565ba1;
+}
+
+
+.Node {
+    color: white;
+    background: #8ac400;
+    border: 2.5px solid #6a9605;
+}
+
+.API {
+    color: white;
+    background: #e22021;
+    border: 2.5px solid #b90707;
+}
+
+.TailwindCSS {
+    color: white;
+    background: #07adca;
+    border: 2.5px solid #0a444e;
+}
+
+.Redux {
+    color: white;
+    background: #7046b2;
+    border: 2.5px solid #5d2bac;
+}
+
+.NextJS {
+    color: #000;
+    background: #ffffff;
+    border: 2.5px solid #020202;
+}
+
+.Jotai {
+    color: #414040;
+    background: #ffffff;
+    border: 2.5px solid #414040;
+}

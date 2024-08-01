@@ -1,0 +1,80 @@
+.footer {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.65rem;
+    padding: 2rem;
+    border-top: 1px solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3.5rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.text {
+    color: #707072;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.rrss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mtop {
+    margin-top: 5rem;
+}
+
+.mail {
+    color: #0f141e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    margin-top: 1rem;
+    font-size: 1.85rem;
+
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+}
+
+.icon {
+    font-size: 1.7rem;
+}
+
+@media (min-width: 768px) {
+
+    .mtop {
+        margin-top: 0;
+    }
+
+    .infoContainer {
+        text-align: center;
+        width: 65%;
+        max-width: 70rem;
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .title {
+        font-size: 1.9rem;
+    }
+
+    .text {
+        font-size: 1.6rem;
+    }
+
+    .mail {
+        justify-content: center;
+    }
+}
+
+.dataContainer {
+    margin: 1rem 0 2.5rem 0;
+}

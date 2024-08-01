@@ -1,0 +1,63 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+/*     scroll-behavior: smooth; */
+}
+
+body {
+   overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.arrow-right {
+    font-size: 3rem;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.active {
+    flex-grow: 1;
+}
+
+.grayscale {
+    filter: grayscale(70%);
+}
+
+body::-webkit-scrollbar {
+    background-color: #0f141e;
+    width: .6rem;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #2b2a2a;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 5rem;
+    outline: 1px solid #708090;
+}
+
+section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 2.2rem;
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 0 4rem;
+    }
+}
+

@@ -1,0 +1,79 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.fieldsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.label,
+.input {
+    font-family: "Helvetica Now Display DW",sans-serif;
+}
+
+.input:focus,
+.textarea:focus {
+    border-color: #0f141e;
+}
+
+.label {
+    color: #707072;
+    font-size: 1.6rem;
+}
+
+.input, .textarea {
+    transition: .25s;
+    padding: .65rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    border-left: 1px solid #cacaca;
+    font-size: 1.8rem;
+}
+
+.textarea {
+    resize: none;
+    height: 13rem;
+
+}
+
+.success {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: .5rem;
+    color: #FFFFFF;
+    background-color: #34bb12;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    gap: .65rem;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #0f141e, #4e4e4e);
+   
+}
+
+.error {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: #cf2115;
+}
