@@ -20,8 +20,8 @@ const Footer = () => {
           <nav className={styles.rrss}>
             <a
               className={styles.mail}
-              href="./CV-DEVJoaquin.pdf"
-              download
+              href="./CV-DEV Joaquin.pdf"
+              target="_blank"
               rel="noreferrer"
             >
               <i className={`fa-solid fa-download ${styles.icon}`}></i>
