@@ -34,7 +34,7 @@ const About = () => {
         className={styles.subtitle}
       >
         Soy Joaquín Vega, me formé de manera autodidacta y estoy en busca de mis
-        primeras experiancias laborales como desarrollador. Busco crear
+        primeras experiencias laborales como desarrollador. Busco crear
         proyectos de calidad que muestren mis conocimientos y pasiones.
       </motion.h2>
 
