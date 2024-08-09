@@ -1,2 +1,2 @@
 # Personal portfolio 
-Agustín Vega
+Joaquín Vega
